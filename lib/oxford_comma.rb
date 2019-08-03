@@ -6,7 +6,7 @@ def oxford_comma(array)
  else 
    last_word = array.pop
    comma_string array.join (", ")
-   return comma_string + " and " =last_word
+   return comma_string + " and " + last_word
 end 
  
  
